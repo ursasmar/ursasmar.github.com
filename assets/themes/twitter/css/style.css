@@ -1,9 +1,25 @@
 /* Override some defaults */
 html, body {
 	background-color: #eee;
+	font-family: 'PT Sans', Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 25px;
+}
+p {
+	font-family: 'PT Sans', Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 25px;
+}
+h4 {
+	font-size: 16px;
 }
 .navbar {
 	margin-bottom: 0;
+}
+.navbar .brand {
+	font-family: 'Lobster', Georgia, Times, serif;
+    font-size: 60px;
+    line-height: 80px;
 }
 .container > footer {
 	margin-top: 20px;
@@ -78,4 +94,56 @@ html, body {
 	background:#57A957;
 	border:1px solid #4C964D;
 	color:#FFF;
+}
+
+/* Solarized Dark theme for prettify */
+/* Solarized for Google Code Prettify */
+.prettyprint {
+  color: #839496;
+  background-color: #002b36;
+}
+
+.prettyprint .pln {
+  color: inherit;
+}
+
+.prettyprint .str,
+.prettyprint .lit,
+.prettyprint .atv {
+  color: #2aa198;
+}
+
+.prettyprint .kwd {
+  color: #268bd2;
+}
+
+.prettyprint .com,
+.prettyprint .dec {
+  color: #586e75;
+  font-style: italic;
+}
+
+.prettyprint .typ {
+  color: #b58900;
+}
+
+.prettyprint .pun {
+  color: inherit;
+}
+
+.prettyprint .opn {
+  color: inherit;
+}
+
+.prettyprint .clo {
+  color: inherit;
+}
+
+.prettyprint .tag {
+  color: #268bd2;
+  font-weight: bold;
+}
+
+.prettyprint .atn {
+  color: inherit;
 }

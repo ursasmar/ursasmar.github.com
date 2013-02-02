@@ -1,6 +1,12 @@
 ---
 layout: page
 title: "About"
-description: ""
+published: true
+category: 
+tags: []
+group: nav
 ---
+
 {% include JB/setup %}
+
+Hello

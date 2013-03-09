@@ -3,8 +3,8 @@ layout: post
 title: "HTML5 datalist"
 published: true
 category: blog
-tags: []
-comments: false
+tags: [html5, datalist, javascript]
+comments: true
 ---
 
 {% include JB/setup %}
